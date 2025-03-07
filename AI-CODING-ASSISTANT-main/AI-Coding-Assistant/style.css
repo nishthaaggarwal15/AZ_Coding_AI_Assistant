@@ -1,0 +1,104 @@
+/* 🟢 Global Styles - Outer Background */
+body {
+    background: linear-gradient(135deg, #002b00, #004400);
+    color: #d0f0c0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 🟢 Main Chat Container */
+.chat-container {
+    background: #003b00; /* Deep green for a rich contrast */
+    border: 2px solid rgba(0, 255, 0, 0.4);
+    border-radius: 15px;
+    padding: 15px;
+    width: 400px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.6);
+    transition: all 0.3s ease-in-out;
+}
+
+/* 🟢 Chat Header */
+.chat-header {
+    background: linear-gradient(45deg, #00ff00, #009900);
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: inset 0 -3px 5px rgba(255, 255, 255, 0.2);
+}
+
+/* 🟢 Chat Messages */
+.chat-messages {
+    background: #004f00;
+    color: #e0ffe0;
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 350px;
+    overflow-y: auto;
+    box-shadow: inset 0 0 15px rgba(0, 255, 0, 0.3);
+}
+
+/* 🟢 Code Blocks */
+pre.code-block {
+    background: rgba(0, 50, 0, 0.9);
+    border-left: 4px solid #00ff00;
+    color: #99ff99;
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+    padding: 12px;
+    border-radius: 8px;
+    overflow-x: auto;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.4);
+}
+
+/* 🟢 Input Box */
+.chat-input {
+    background: #005c00;
+    color: #fff;
+    border: 1px solid #00ff00;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    width: 88%;
+    margin-right: 5px;
+}
+
+/* 🟢 Send Button */
+.send-button {
+    background: linear-gradient(45deg, #11a611, #009900);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.send-button:hover {
+    background: linear-gradient(45deg, #009900, #00ff00);
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.6);
+}
+
+/* 🟢 Glow Effect on Hover */
+.chat-container:hover {
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.8);
+}
+
+/* 🟢 Close Button */
+.close-btn {
+    background: #33ff66;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.close-btn:hover {
+    background: #00cc33;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
+}

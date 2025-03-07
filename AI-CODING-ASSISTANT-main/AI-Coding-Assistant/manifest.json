@@ -1,0 +1,44 @@
+{
+  "manifest_version": 3,
+  "name": "AI CHAT BOT",
+  "version": "1.0",
+  "author": "Nidhi Soni",
+  "description": "AI assistance for solving problems.",
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://maang.in/*"
+      ],
+      "css": ["style.css"],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources" : [
+    {
+      "resources": [
+        "inject.js"
+      ],
+      "matches" : ["<all_urls>"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "assets/ext-icon.png",
+      "24": "assets/ext-icon.png",
+      "32": "assets/ext-icon.png"
+    },
+    
+    "default_popup": "popup.html",
+    "default_title": "AI CHAT BOT"
+  }
+}
