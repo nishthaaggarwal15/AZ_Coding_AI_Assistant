@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "AI CHAT BOT",
   "version": "1.0",
-  "author": "Nidhi Soni",
+  "author": "Nishtha Aggarwal",
   "description": "AI assistance for solving problems.",
   "permissions": [
     "storage",
