@@ -37,7 +37,7 @@ AI Coding Assistant is a Chrome extension designed to assist users in solving co
 - User-customizable features.
 
 ## Author
-Developed by **Nidhi Soni**.
+Developed by **Nishtha Aggarwal**.
 
 ## License
 This project is licensed under the MIT License.
